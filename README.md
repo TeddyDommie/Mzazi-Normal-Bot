@@ -19,7 +19,7 @@
 
   
 
-<a href="https://github.com/TeddyDommiezazi-normal-bot/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK Mzazi" width="150"></a>
+<a href="https://github.com/TeddyDommie/mzazi-normal-bot/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK Mzazi" width="150"></a>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -32,7 +32,7 @@
 ###  𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔:
 
 
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/TeddyDommie/mzazi-normal-bot&template=https://github.com/TeddyDommie-Mzazi-normal-bot.git)***
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/TeddyDommie/mzazi-normal-bot&template=https://github.com/TeddyDommie/Mzazi-normal-bot.git)***
 </details
 
 ## 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗨𝗦 𝗕𝗬 𝗝𝗢𝗜𝗡𝗜𝗡𝗚 𝗧𝗛𝗘𝗦𝗘 𝗟𝗜𝗡𝗞𝗦
