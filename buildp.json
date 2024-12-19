@@ -1,0 +1,7 @@
+  "buildpacks": [
+              {
+                "url": "heroku/nodejs"
+              },
+              {
+                "url": "https://github.com/TeddyDommie/heroku-buildpack-ffmpeg-latest"
+              }
