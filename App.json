@@ -1,27 +1,38 @@
 {
   "name": "Mzazi-normal-bot",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/TeddyDommie/Mzazi-normal-bot",
+  "description": "Aspire to inspire before you expire. EVrything is possible😇.",
+  "repository": "https://github.com/teddydommie/mzazi-normal-bot",
   "logo": "https://files.catbox.moe/vr0vw1.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"]
+  "keywords": ["bot", "automation", "heroku"],
+  "scripts": {
+    "postdeploy": "npm run setup-database"
+  },
   "env": {
-      "autoviewstatus": {
-        "description": "Put TRUE,if you want the bot to view status ",
-        "required": true
-        },
-    "autolikestatus": {
-      "description": "Type true if you want bot to automatically like status updates, this will only work if AUTOVIEW_STATUS is true.",
-      "required": true
-     },
-      "HEROKU_API_KEY": {
-        "description": "Heroku account api key, https://dashboard.heroku.com/account",
-        "required": false
-      }
+    "NODE_ENV": {
+      "description": "Set the Node environment",
+      "value": "production"
     },
+    "DATABASE_URL": {
+      "description": "The URL of the app's database",
+      "required": true
+    },
+    "API_KEY": {
+      "description": "API key for external services",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
   "buildpacks": [
-              {
-                "url": "heroku/nodejs"
-              },
-              {
-                "url": "https://github.com/TeddyDommie/heroku-buildpack-ffmpeg-latest"
-              }]   
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
