@@ -5,7 +5,7 @@
   "logo": "https://files.catbox.moe/vr0vw1.jpg",
   "keywords": ["bot", "automation", "heroku"],
   "scripts": {
-    "postdeploy": "npm run setup-database"
+    "postdeploy": "npm run mzazi"
   },
   "env": {
     "NODE_ENV": {
@@ -14,11 +14,11 @@
     },
     "DATABASE_URL": {
       "description": "The URL of the app's database",
-      "required": true
+      "required": false
     },
     "API_KEY": {
       "description": "API key for external services",
-      "required": true
+      "required": false
     }
   },
   "formation": {
