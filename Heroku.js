@@ -1,7 +1,7 @@
 
 
 
-const { keith } = require("../keizzah/keith");
+const { mzazi } = require("../teddydommie/mzazi-normal-bot");
 const s = require("../set");
 const fs = require('fs');
 const Heroku = require('heroku-client');
@@ -14,8 +14,8 @@ function getDescriptionFromEnv(varName) {
   return config.env[varName]?.description || "The environment variable description was not found.";
 }
 
-// Anti-call function setup
-keith({
+// Anti-call function setup 
+mzazi({
   nomCom: 'anticall',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -57,7 +57,7 @@ keith({
 });
 
 
-keith({
+mzazi({
   nomCom: 'areact',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -98,7 +98,7 @@ keith({
   }
 });
 
-keith({
+mzazi({
   nomCom: 'readstatus',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -138,7 +138,7 @@ keith({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-keith({
+mzazi({
   nomCom: 'antidelete',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -220,7 +220,7 @@ keith({
   }
 });
 
-keith({
+mzazi({
   nomCom: 'startmessage',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -260,8 +260,7 @@ keith({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-
-keith({
+mzazi({
   nomCom: 'readmessage',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
@@ -302,7 +301,7 @@ keith({
   }
 });
 
-keith({
+mzazi({
   nomCom: 'pm-permit',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, zk, context) => {
